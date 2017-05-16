@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QXDownLoader_Example' do
+  pod 'QXDownLoader', :path => '../'
+
+  target 'QXDownLoader_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
