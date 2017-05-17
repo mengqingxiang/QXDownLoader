@@ -1,0 +1,6 @@
+framework module QXDownLoader {
+  umbrella header "QXDownLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}

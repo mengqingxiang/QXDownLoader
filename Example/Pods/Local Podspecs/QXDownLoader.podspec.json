@@ -1,0 +1,22 @@
+{
+  "name": "QXDownLoader",
+  "version": "0.1.0",
+  "summary": "A short description of QXDownLoader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mengqingxiang/QXDownLoader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mengqingxiang": "703856207@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/mengqingxiang/QXDownLoader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QXDownLoader/Classes/**/*"
+}

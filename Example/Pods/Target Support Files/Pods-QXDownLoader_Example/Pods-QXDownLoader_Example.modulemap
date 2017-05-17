@@ -1,0 +1,6 @@
+framework module Pods_QXDownLoader_Example {
+  umbrella header "Pods-QXDownLoader_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

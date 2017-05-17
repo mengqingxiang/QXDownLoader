@@ -1,0 +1,16 @@
+PODS:
+  - QXDownLoader (0.1.0)
+
+DEPENDENCIES:
+  - QXDownLoader (from `../`)
+
+EXTERNAL SOURCES:
+  QXDownLoader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QXDownLoader: 39f8a5ba152b49da30340d4fec7be500e70a821e
+
+PODFILE CHECKSUM: 443d3b39e65b4378acb650b0d8ed2ea7b49c5649
+
+COCOAPODS: 1.1.1

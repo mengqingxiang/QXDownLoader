@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		39FF84EE887D4144CA75CA1B /* Pods_QXDownLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXDownLoader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45A666E707F6717F8E0C98BD /* QXDownLoader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QXDownLoader.podspec; path = ../QXDownLoader.podspec; sourceTree = "<group>"; };
-		4F2DDD0F85922F99B4E6A007 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		45A666E707F6717F8E0C98BD /* QXDownLoader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QXDownLoader.podspec; path = ../QXDownLoader.podspec; sourceTree = "<group>"; };
+		4F2DDD0F85922F99B4E6A007 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5BC54E4C4EF1A2A8AC2B6742 /* Pods-QXDownLoader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXDownLoader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXDownLoader_Tests/Pods-QXDownLoader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QXDownLoader_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QXDownLoader_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		C6A5820F47B7C646E46F027F /* Pods_QXDownLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXDownLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA991A3AFB3A6C0736F6C128 /* Pods-QXDownLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXDownLoader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXDownLoader_Example/Pods-QXDownLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E3CB5AE7597740D7EE9B8FBE /* Pods-QXDownLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXDownLoader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXDownLoader_Example/Pods-QXDownLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EB61A112E572C10CB9F86A71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EB61A112E572C10CB9F86A71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F2A6767FB7E22BB55C99BEAA /* Pods-QXDownLoader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXDownLoader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXDownLoader_Tests/Pods-QXDownLoader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
