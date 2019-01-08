@@ -46,7 +46,9 @@ static QXDownLoadManager* _shareInstance = nil;
     QXDownLoader *loader = [self getDownLoadWithUrl:downUrl];
     [loader downloadWithUrl:downUrl totalSizeBlock:totalSizeBlock successBlock:^(NSString *cachePath) {
         [weakself.loaderDic removeObjectForKey:[downUrl.absoluteString md5]];
-        successBlock(cachePath);
+        if (successBlock) {
+            successBlock(cachePath);
+        }
     } failedBlock:failedBlock];
     return loader;
 }

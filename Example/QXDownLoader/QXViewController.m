@@ -51,38 +51,24 @@
 }
 
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
-    QXDownLoader *downLoad = [[QXDownLoadManager shareInstance] getLoaderWithUrl:[NSURL URLWithString:@"http://120.25.226.186:32812/resources/videos/minion_01.mp4" ]];
-
-    
-    QXDownLoader *downLoad2 = [[QXDownLoadManager shareInstance] getLoaderWithUrl:[NSURL URLWithString:@"http://audio.xmcdn.com/group23/M04/63/C5/wKgJNFg2qdLCziiYAGQxcTOSBEw402.m4a"]];
-    NSLog(@"%@---%@",downLoad,downLoad2);
-}
-
 - (IBAction)download:(UIButton*)sender {
 
     //@"http://audio.xmcdn.com/group23/M04/63/C5/wKgJNFg2qdLCziiYAGQxcTOSBEw402.m4a"
     
+    QXDownLoader *downLoad = [[QXDownLoadManager shareInstance] downloadWithUrl:[NSURL URLWithString:@"https://mengqingxiang.cn/api/downLoadBook/5Zu+6KejSFRUUA==.pdf"]];
     
-      [[QXDownLoadManager shareInstance] downloadWithUrl:[NSURL URLWithString:@"http://120.25.226.186:32812/resources/videos/minion_01.mp4"] totalSizeBlock:^(long long size) {
+//    QXDownLoader *downLoad = [[QXDownLoadManager shareInstance] downloadWithUrl:[NSURL URLWithString:@"https://mengqingxiang.cn/api/downLoadBook/5Zu+6KejSFRUUA==.pdf"] totalSizeBlock:^(long long size) {
 //        NSLog(@"%lld",size);
-    } successBlock:^(NSString *cachePath) {
+//    } successBlock:^(NSString *cachePath) {
 //        NSLog(@"%@",cachePath);
-    } failedBlock:^(NSError *error) {
+//    } failedBlock:^(NSError *error) {
 //        NSLog(@"%@",error);
-    }];
+//    }];
+//
+    downLoad.progressBlock = ^(float progress) {
+        NSLog(@"%f",progress);
+    };
     
-
-    
-    [[QXDownLoadManager shareInstance] downloadWithUrl:[NSURL URLWithString:@"http://audio.xmcdn.com/group23/M04/63/C5/wKgJNFg2qdLCziiYAGQxcTOSBEw402.m4a"] totalSizeBlock:^(long long size) {
-//        NSLog(@"====%lld",size);
-    } successBlock:^(NSString *cachePath) {
-//        NSLog(@"===%@",cachePath);
-    } failedBlock:^(NSError *error) {
-//        NSLog(@"====%@",error);
-    }];
-
 }
 
 
@@ -91,7 +77,7 @@
     NSDictionary *userinfo = noif.userInfo;
 //    NSString *url = userinfo[@"Url"];
     QXDownState state = [userinfo[@"state"] intValue];
-    NSLog(@"%d",state);
+    NSLog(@"%ld",(long)state);
 }
 
 - (IBAction)pause:(UIButton*)sender {
