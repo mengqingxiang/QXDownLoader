@@ -16,7 +16,7 @@
 
 +(NSString *)cachePathWithUrl:(NSURL*)Url
 {
-    return [chcheDirectory stringByAppendingString:Url.pathComponents.lastObject];
+    return [chcheDirectory stringByAppendingString:[NSString stringWithFormat:@"/%@",Url.pathComponents.lastObject]];
 }
 
 
